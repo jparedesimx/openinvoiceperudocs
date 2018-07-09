@@ -1,0 +1,54 @@
+{
+  "IdDocumento": "FAAA-1240",
+  "TipoDocumento": "01",
+  "Emisor": {
+    "NroDocumento": "20257471609",
+    "TipoDocumento": "6",
+    "NombreLegal": "FRAMEWORK PERU SAC",
+    "NombreComercial": "FRAMEWORK PERU",
+    "CodigoAnexo": "001"
+  },
+  "Receptor": {
+    "NroDocumento": "20549202930",
+    "TipoDocumento": "6",
+    "NombreLegal": "EMPRESA RECEPTORA"
+  },
+  "FechaEmision": "2018-06-03",
+  "HoraEmision":"01:19:00",
+  "Moneda": "PEN",
+  "TipoOperacion": "0101",
+  "Gravadas": 100,
+  "Gratuitas": 0,
+  "Inafectas": 0,
+  "Exoneradas": 0,
+  "DescuentoGlobal": 0,
+  "Items": [
+    {
+      "Id": 1,
+      "Cantidad": 5,
+      "UnidadMedida": "NIU",
+      "CodigoItem": "001",
+      "Descripcion": "xxxxxxxxx",
+      "PrecioUnitario": 20,
+      "PrecioReferencial": 20,
+      "TipoPrecio": "01",
+      "TipoImpuesto": "10",
+      "Impuesto": 18,
+      "ImpuestoSelectivo": 0,
+      "OtroImpuesto": 0,
+      "Descuento": 0,
+      "TotalVenta": 100
+    }
+  ],
+  "TotalVenta": 118,
+  "TotalIgv": 18,
+  "TotalIsc": 0,
+  "TotalOtrosTributos": 0,
+  "MontoEnLetras": "MUCHA PLATA",
+  "MontoPercepcion": 0,
+  "MontoDetraccion": 0,
+  "TipoDocAnticipo": "string",
+  "DocAnticipo": "string",
+  "MonedaAnticipo": "string",
+  "MontoAnticipo": 0
+}

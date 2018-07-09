@@ -1,0 +1,62 @@
+{
+  "IdDocumento": "TAAA-2344",
+  "FechaEmision": "2018-04-19",
+  "TipoDocumento": "09",
+  "Glosa": "GUIA DE PRUEBA",
+  "Remitente": {
+    "NroDocumento": "20257471609",
+    "TipoDocumento": "6",
+    "NombreLegal": "FRAMEWORK PERU S.A.C.",
+    "NombreComercial": "FRAMEWORK PERU",
+    "Ubigeo": "150119",
+    "Direccion": "AV. ARAMBURU 878",
+    "Urbanizacion": "LIMATAMBO",
+    "Departamento": "LIMA",
+    "Provincia": "LIMA",
+    "Distrito": "SAN ISIDRO"
+  },
+  "Destinatario": {
+    "NroDocumento": "20549202960",
+    "TipoDocumento": "6",
+    "NombreLegal": "EMPRESA RECEPTORA EIRL",
+    "NombreComercial": "EMPRESA",
+    "Ubigeo": "150101",
+    "Direccion": "AV. WILSON 345",
+    "Urbanizacion": "-",
+    "Departamento": "LIMA",
+    "Provincia": "LIMA",
+    "Distrito": "LIMA"
+  },
+  "ShipmentId":"001",
+  "CodigoMotivoTraslado": "01",
+  "DescripcionMotivo": "VENTA DIRECTA",
+  "Transbordo": false,
+  "PesoBrutoTotal": 50,
+  "NroPallets": 0,
+  "ModalidadTraslado": "01",
+  "FechaInicioTraslado": "2018-04-19",
+  "RucTransportista": "20257471609",
+  "RazonSocialTransportista": "framework peru",
+  "NroPlacaVehiculo": "YG2466",
+  "NroDocumentoConductor": "88888888",
+  "DireccionPartida": {
+    "Ubigeo": "150119",
+    "DireccionCompleta": "AV. ARAMBURU 878"
+  },
+  "DireccionLlegada": {
+    "Ubigeo": "150101",
+    "DireccionCompleta": "AV. WILSON 348"
+  },
+  "NumeroContenedor": "",
+  "CodigoPuerto": "",
+  "BienesATransportar": [
+    {
+      "Correlativo": 1,
+      "CodigoItem": "XXXX",
+      "Descripcion": "XXXXXX",
+      "UnidadMedida": "NIU",
+      "Cantidad": 4,
+      "LineaReferencia": 1
+    }
+  ]
+}
