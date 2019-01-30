@@ -82,56 +82,56 @@
     </cac:Party>
   </cac:AccountingCustomerParty>
   <cac:Delivery>
-		<cac:Shipment>
-			<cbc:ID schemeName="SUNAT:Indicador de Motivo de Traslado" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20">01</cbc:ID>
-			<cbc:GrossWeightMeasure unitCode="KGM" unitCodeListVersionID="UN/ECE rec 20 Revision 4">24.30</cbc:GrossWeightMeasure>
-			<cac:ShipmentStage>
-				<cbc:TransportModeCode listName="SUNAT:indicador de Modalidad de Transporte" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18">02</cbc:TransportModeCode>
-				<cac:TransitPeriod>
-					<cbc:StartDate>2019-01-29</cbc:StartDate>
-				</cac:TransitPeriod>
-				<cac:CarrierParty>
-					<cac:PartyLegalEntity>
-						<cbc:RegistrationName>MULTISERVICIOS GENERALES</cbc:RegistrationName>
-						<cbc:CompanyID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20257471609</cbc:CompanyID>
-					</cac:PartyLegalEntity>
-				</cac:CarrierParty>
-				<cac:TransportMeans>
-					<cbc:RegistrationNationalityID>SW35645677</cbc:RegistrationNationalityID>
-					<cac:RoadTransport>
-						<cbc:LicensePlateID>YG3890</cbc:LicensePlateID>
-					</cac:RoadTransport>
-				</cac:TransportMeans>
-				<cac:DriverPerson>
-					<cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">45342211</cbc:ID>
-				</cac:DriverPerson>
-			</cac:ShipmentStage>
-			<cac:Delivery>
-				<cac:DeliveryAddress>
-					<cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">160101</cbc:ID>
-					<cac:AddressLine>
-						<cbc:Line>Jr. Morona 171</cbc:Line>
-					</cac:AddressLine>
-				</cac:DeliveryAddress>
-				<cac:DeliveryParty>
-					<cbc:MarkAttentionIndicator>false</cbc:MarkAttentionIndicator>
-				</cac:DeliveryParty>
-			</cac:Delivery>
-			<!-- INICIO - Informacion de Vehiculos Secundarios -->
-			<cac:TransportHandlingUnit>
-				<cac:TransportEquipment>
-					<cbc:ID>AG-2345</cbc:ID>
-				</cac:TransportEquipment>
-			</cac:TransportHandlingUnit>
-			<!-- FIN - Informacion de Vehiculos Secundarios -->
-			<cac:OriginAddress>
-				<cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">160101</cbc:ID>
-				<cac:AddressLine>
-						<cbc:Line>Calle Pablo Rosell 1328</cbc:Line>
-					</cac:AddressLine>
-			</cac:OriginAddress>
-		</cac:Shipment>
-    </cac:Delivery>
+    <cac:Shipment>
+      <cbc:ID schemeName="SUNAT:Indicador de Motivo de Traslado" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo20">01</cbc:ID>
+      <cbc:GrossWeightMeasure unitCode="KGM" unitCodeListVersionID="UN/ECE rec 20 Revision 4">24.30</cbc:GrossWeightMeasure>
+      <cac:ShipmentStage>
+        <cbc:TransportModeCode listName="SUNAT:indicador de Modalidad de Transporte" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo18">02</cbc:TransportModeCode>
+        <cac:TransitPeriod>
+          <cbc:StartDate>2019-01-29</cbc:StartDate>
+        </cac:TransitPeriod>
+        <cac:CarrierParty>
+          <cac:PartyLegalEntity>
+            <cbc:RegistrationName>MULTISERVICIOS GENERALES</cbc:RegistrationName>
+            <cbc:CompanyID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20257471609</cbc:CompanyID>
+          </cac:PartyLegalEntity>
+        </cac:CarrierParty>
+        <cac:TransportMeans>
+          <cbc:RegistrationNationalityID>SW35645677</cbc:RegistrationNationalityID>
+          <cac:RoadTransport>
+            <cbc:LicensePlateID>YG3890</cbc:LicensePlateID>
+          </cac:RoadTransport>
+        </cac:TransportMeans>
+        <cac:DriverPerson>
+          <cbc:ID schemeID="6" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">45342211</cbc:ID>
+        </cac:DriverPerson>
+      </cac:ShipmentStage>
+      <cac:Delivery>
+        <cac:DeliveryAddress>
+          <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">160101</cbc:ID>
+          <cac:AddressLine>
+            <cbc:Line>Jr. Morona 171</cbc:Line>
+          </cac:AddressLine>
+        </cac:DeliveryAddress>
+        <cac:DeliveryParty>
+          <cbc:MarkAttentionIndicator>false</cbc:MarkAttentionIndicator>
+        </cac:DeliveryParty>
+      </cac:Delivery>
+      <!-- INICIO - Informacion de Vehiculos Secundarios -->
+      <cac:TransportHandlingUnit>
+        <cac:TransportEquipment>
+          <cbc:ID>AG-2345</cbc:ID>
+        </cac:TransportEquipment>
+      </cac:TransportHandlingUnit>
+      <!-- FIN - Informacion de Vehiculos Secundarios -->
+      <cac:OriginAddress>
+        <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">160101</cbc:ID>
+        <cac:AddressLine>
+          <cbc:Line>Calle Pablo Rosell 1328</cbc:Line>
+        </cac:AddressLine>
+      </cac:OriginAddress>
+    </cac:Shipment>
+  </cac:Delivery>
   <cac:TaxTotal>
     <cbc:TaxAmount currencyID="PEN">125.71</cbc:TaxAmount>
     <cac:TaxSubtotal>
